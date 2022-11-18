@@ -525,6 +525,10 @@ nav .navigation li a {
 
 /* !Footer */
 
+.footercopright {
+  position:relative;
+}
+
 .footer-icon {
   padding: 2rem 1rem;
   text-decoration:none !important;
