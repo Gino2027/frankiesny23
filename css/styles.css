@@ -13,22 +13,22 @@
 
 @font-face {
   font-family: 'Futura Light';
-  src: url('./fonts/futuramc.ttf' format('truetype'));
+  src: url('/fonts/futuramc.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Futura Bold';
-  src: url('./fonts/futurab.ttf') format('truetype');
+  src: url('/fonts/futurab.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Futura Medium';
-  src: url('./fonts/futuram.ttf') format('truetype');
+  src: url('/fonts/futuram.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Futura Bold Italic';
-  src: url('./fonts/futurabi.ttf') format('truetype');
+  src: url('/fonts/futurabi.ttf') format('truetype');
 }
 
 /* !top | right | bottom | left */
