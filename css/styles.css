@@ -233,9 +233,10 @@ nav .navigation li a {
 }
 
 .order-img {
-  width: 40%;
-  margin-bottom: 30%;
-  background-color: rgba(0, 0, 0, 0.8);
+background-color: rgba(0, 182, 152, 0.8); /* 0.8 value for opacity*/
+border-radius: 5%;
+padding: 1px 20px 1px 20px;
+margin-bottom: 30%;
 }
 
 .banner-img {
