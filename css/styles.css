@@ -3,7 +3,29 @@
 
 /*@import url(https://fonts.googleapis.com/css?family=Bangers);*/
 
+@font-face {
+    font-family: 'Futura Light';
+    src: url('/fonts/futuramc.ttf');
+}
 
+@font-face {
+    font-family: 'Futura Bold';
+    src: url('/fonts/futurab.ttf');
+}
+
+@font-face {
+    font-family: 'Futura Medium';
+    src: url('/fonts/futuram.ttf');
+}
+
+@font-face {
+    font-family: 'Futura Bold Italic';
+    src: url('/fonts/futurabi.ttf');
+}
+
+body {
+    font-family: 'Futura Medium';
+}
 /* !top | right | bottom | left */
 body{
   font-family: '';
@@ -188,7 +210,6 @@ nav .navigation li a {
 .nav-menu {
   font-size: 1.5rem;
   font-family: 'Futura Bold';
-  src: url('/fonts/futuramc.ttf');
   text-shadow: 2px 2px #000 !important;
 }
 
