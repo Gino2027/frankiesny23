@@ -3,32 +3,37 @@
 
 /*@import url(https://fonts.googleapis.com/css?family=Bangers);*/
 
-@font-face {
-    font-family: 'Futura Light';
-    src: url('/fonts/futuramc.ttf');
+:root {
+  --black: #000000;
+  --red-10: #D90E12;
+  --green-10: #34AB3F;
+  --gray-10: #474747;
+  --font-family-sans-serif: 'Futura Light, Futura Bold, Futura Medium, Futura Bold Italic';
 }
 
 @font-face {
-    font-family: 'Futura Bold';
-    src: url('/fonts/futurab.ttf');
+  font-family: 'Futura Light';
+  src: url('/fonts/futuramc.ttf');
 }
 
 @font-face {
-    font-family: 'Futura Medium';
-    src: url('/fonts/futuram.ttf');
+  font-family: 'Futura Bold';
+  src: url('/fonts/futurab.ttf');
 }
 
 @font-face {
-    font-family: 'Futura Bold Italic';
-    src: url('/fonts/futurabi.ttf');
+  font-family: 'Futura Medium';
+  src: url('/fonts/futuram.ttf');
 }
 
-body {
-    font-family: 'Futura Medium';
+@font-face {
+  font-family: 'Futura Bold Italic';
+  src: url('/fonts/futurabi.ttf');
 }
+
 /* !top | right | bottom | left */
 body{
-  font-family: '';
+  font-family: 'Futura Medium';
   text-align: center;
 }
 
@@ -55,77 +60,6 @@ body{
 .text-uppercase {
   font-family: 'Futura Bold';
   color: #ffd200;
-}
-
-
-/* !Text */
-
-/*.font-futura-bold {
-  font-family: 'Futura Bold'
-}
-
-.font-futura-bold-ital {
-  font-family: 'Futura Bold Italic'
-}
-
-.font-futura-medium {
-  font-family: 'Futura Medium'
-}
-
-.font-futura-light {
-  font-family: 'Futura Light'
-}
-
-.text-black {
-  color: var(--black)
-}
-
-.text-red-10 {
-  color: var(--red-10)
-}
-
-.text-base {
-  font-size: 1rem;
-}
-
-.text-lg {
-  font-size: 0.5rem;
-}
-
-.text-xl {
-  font-size: 2rem;
-}
-
-.text-2xl {
-  font-size: 3rem;
-}
-
-.text-3xl {
-  font-size: 4rem;
-}
-
-.text-wide {
-  letter-spacing: 5px;
-}
-
-.text-shadow-black {
-  text-shadow: 2px 2px #000000;
-}
-
-.text-red-hover:hover {
-  color: #D90E12
-}
-
-.font-bold {
-  font-weight: 900;
-}
-
-.font-black {
-  font-weight: bolder;
-}
-
-.italic {
-  font-style: italic;
 }
 
 /* !Containers */
