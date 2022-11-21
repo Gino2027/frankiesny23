@@ -64,10 +64,10 @@
 
     <style>
       .about-content ul {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         color: #fff !important;
         /* text-align: center !important; */
-        line-height: 1 !important;
+        /*line-height: 1 !important; */
       }
 
       .main-text {
@@ -89,9 +89,6 @@
       .about-content {
         margin: 0px -3px !important;
         padding: 0px !important;
-      }
-      .main-title {
-        font-size: 1.8rem !important;
       }
 
       .page-footer h6 {
@@ -121,47 +118,36 @@
           margin-bottom: 25% !important;
         }
         .nav-menu {
-          font-size: 2rem !important;
+          font-size: 1.7rem !important;
         }
       }
       /**Changing font-size media screen 991px **/
       @media only screen and (max-width: 990px) {
-        .main-banner {
-          margin-top: -35px !important;
-          z-index: 10;
-          position: relative;
-        }
-        .ad-banner {
-          height: 12vh !important;
-        }
-        /**Changing font-size media screen **/
-        .page-footer h6 {
-          font-size: 1.8rem !important;
-        }
-        .page-footer a {
-          font-size: 1.6rem !important;
-        }
-        .page-footer p {
-          font-size: 1.6rem !important;
-        }
-        .page-footer i {
-          font-size: 1.8rem !important;
-        }
-        .footer-copyright {
-          font-size: 2rem;
-        }
         .about-content ul {
-          font-size: 2rem !important;
+          font-size: 2.5rem !important;
         }
-        .slider .quote {
-          font-size: 1.4rem !important;
+        .quote {
+          font-size: 1.8rem !important;
         }
         .order img {
           width: 30rem !important;
           margin-bottom: 20% !important;
         }
         .nav-menu {
-          font-size: 2rem !important;
+          font-size: 2.8rem !important;
+        }
+        .ilovenyw1 {
+          width: 20rem !important;
+        }
+        .ilovenyw {
+          width: 30rem !important;
+        }
+        .statuelib {
+          width: 18rem !important;
+          margin-top: 14% !important;
+        }
+        .main-title {
+          font-size: 3.5rem;
         }
       }
       /**Changing font-size media screen 767px **/
@@ -176,6 +162,9 @@
           position: relative;
         }
         .nav-link {
+          font-size: 2rem !important;
+        }
+        .main-title {
           font-size: 3rem !important;
         }
       }
@@ -188,19 +177,11 @@
           margin: 0px 2rem !important;
         }
         .main-title {
-          font-size: 1.5rem !important;
+          font-size: 3rem !important;
         }
         .main-text {
           margin-top: 0px !important;
           font-size: 1rem !important;
-        }
-        .about-content {
-          font-size: 2rem;
-          color: #fff !important;
-        }
-        .about-content ul {
-          font-size: 2rem;
-          color: #fff !important;
         }
         .nav-link {
           font-size: 3rem !important;
@@ -232,20 +213,32 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-menu" href="#footer" style="color: #ffffff">CAREERS</a>
+          <a class="nav-menu" href="careers.html" style="color: #ffffff"
+            >CAREERS</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-menu" href="contactus.html" style="color: #ffffff"
+            >CONTUCT US</a
+          >
         </li>
       </ul>
     </nav>
     <!--Carousel start here 3/8/2022-->
-
-    <!-- Features -->
-    <section class="content-section" style="background-color: #000">
-      <div class="banner-img col-xl-12">
-        <!--col-lg-4 col-md-6 make your view col within the screen just run and check it -->
-        <div class="card-header"></div>
-        <div class=""></div>
-      </div>
+    <section
+      id="slider"
+      class="h-30 include-header"
+      style="
+        background: url('https://frankiesnywings.com/web/img/bg/header.png')
+          no-repeat center center / cover;
+      "
+    >
+      <div
+        class="h-30 opacity-75 opacity-black"
+        style="width: 100%; height: 100%"
+      ></div>
     </section>
+    <!-- Features -->
     <!--Menu 03/13/2022-->
     <section id="content" style="background-color: #000">
       <div
@@ -347,7 +340,11 @@
         </div>
 
         <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-5">
+
+        <div class="container text-center text-md-left mt-4">
+          <div class="statliberty">
+            <img class="statuelib" src="images/statliberty.png" />
+          </div>
           <!-- Grid row -->
           <div class="row mt-3">
             <!-- Grid column -->
@@ -363,7 +360,7 @@
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="products col-lg-3 col-md-12 mx-auto mb-4">
+            <div class="products col-lg-3 col-md-4 mx-auto mb-4">
               <!-- Links -->
               <h6 class="text-uppercase">Products</h6>
               <hr
@@ -388,7 +385,7 @@
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="useful col-lg-3 col-md-12 mx-auto mb-4">
+            <div class="useful col-lg-3 col-md-4 mx-auto mb-4">
               <!-- Links -->
               <h6 class="text-uppercase">Useful links</h6>
               <hr
@@ -413,7 +410,7 @@
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="contact-list col-lg-3 col-md-12 mx-auto mb-1 mr-4">
+            <div class="contact-list col-lg-3 col-md-4 mx-auto mb-1 mr-4">
               <!-- Links -->
               <h6 class="text-uppercase">Contact</h6>
               <hr
