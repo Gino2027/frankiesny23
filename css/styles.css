@@ -31,10 +31,11 @@
   src: url('../fonts/futurabi.ttf') format('truetype');
 }
 
+
 /* !top | right | bottom | left */
 body{
-  font-family: 'Futura Medium';
   text-align: center;
+  font-family: 'Futura Medium';
 }
 
 /* !Headings */
@@ -51,8 +52,6 @@ body{
 
 .section-heading {
   font-family: 'Futura Bold';
-  font-size: 2rem;
-  line-height: 1.5;
   font-weight: bold;
   color: #eee;
 }
@@ -60,6 +59,17 @@ body{
 .text-uppercase {
   font-family: 'Futura Bold';
   color: #ffd200;
+}
+
+/* !Contact-us*/
+.contact-img {
+  max-width: 100%;
+}
+
+/* !Text */
+ 
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* !Containers */
@@ -92,7 +102,7 @@ body{
 }
 
 .branch-header {
-  padding-top: 12rem;
+  padding-top: 5rem;
 }
 
 
@@ -142,7 +152,7 @@ nav .navigation li a {
 
 /* !Navigation Text Color */
 .nav-menu {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: 'Futura Bold';
   text-shadow: 2px 2px #000 !important;
 }
@@ -199,6 +209,19 @@ nav .navigation li a {
   left: 50%;
   }
 
+/* !career */
+
+.career-position {
+    margin: auto;
+    width: 100%;
+    padding: 50px;
+  }
+
+.career1 {
+  width: 90%;
+}
+
+
 /* !Donwload Buttons */
 /* !top | right | left | bottom */
 
@@ -243,6 +266,10 @@ margin-bottom: 30%;
   padding: 0% 0%; /**3% top and bottom and 2% left and right**/
 }
 
+.main-title {
+  font-size: 3rem;
+}
+
 /* !Content Sections */
 
 .section {
@@ -259,7 +286,6 @@ margin-bottom: 30%;
   display: flex;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 2rem
 }
 .fancy-title h1,
 .fancy-title h2,
@@ -525,7 +551,6 @@ margin-bottom: 30%;
 
 
 /* !Footer */
-
 .footercopright {
   position:relative;
 }
@@ -596,8 +621,8 @@ margin-bottom: 30%;
 }*/
 
 .scroll {
-    height: 800px;
-    overflow-y:scroll;
+  overflow-y: scroll;
+  height: 80rem;
 }
 
 @keyframes image-iso {
@@ -617,7 +642,7 @@ margin-bottom: 30%;
 
 .content-slider {
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
 
 .slider {
@@ -651,6 +676,7 @@ margin-bottom: 30%;
   font-size: 1.4rem;
   font-style: italic;
   color: #eee;
+
 }
 
 .slider .source {
@@ -1011,7 +1037,7 @@ rotate to 0 and the div id title-align will change to center how to check viewpo
           position: relative;
           width: 65px;
           height: 65px;
-          background-image: url("../images/menu1.png");
+          background-image: url("/images/menu1.png");
           background-size: 45px;
           background-repeat: no-repeat;
           background-position: center;
@@ -1020,7 +1046,7 @@ rotate to 0 and the div id title-align will change to center how to check viewpo
           } 
         
         .menuToggle.active {
-          background-image: url("../images/close1.png");
+          background-image: url("/images/close1.png");
           background-size: 45px;
           background-repeat: no-repeat;
           background-position: center;
